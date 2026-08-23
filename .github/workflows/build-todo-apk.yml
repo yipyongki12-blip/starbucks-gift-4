@@ -1,9 +1,7 @@
 name: Build ToDo APK
 on:
   push:
-    branches: [todo-apk-build]
-  pull_request:
-    branches: [main]
+    branches: [main, todo-apk-build]
   workflow_dispatch:
 jobs:
   build:
